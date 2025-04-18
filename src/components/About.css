@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.container{
+    background-color: #F8F8F8;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    width: 1250px;
+    padding: 150px;
+}
+
+.top{
+    display: flex;
+    gap: 30px;
+}
+
+.info{
+    flex-basis: 50%;
+    
+}
+
+.pic{
+    position: relative;
+    flex-basis: 50%;
+
+}
+
+.iconName{
+    position: absolute;
+    right: 0;
+    top: -20%;
+}
+
+
+
+
+.heading h1:nth-child(2){
+    padding-left: 40px;
+}
+
+.info-p{
+    padding-left: 20px;
+    border-left: 5px solid black;
+}
+
+.info-p button{
+    background-color: #000;
+    color: #fff;
+    padding: 24px 56px;
+    font-size: 20px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.cards{
+    display: flex;
+    margin-top: 30px;
+}
+
+.card{
+    padding: 48px 26px;
+    background-color: #fff;
+
+}
+
+.card:nth-child(even){
+    background-color: #E2E7F1;
+
+}
+
+.card p{
+    font-size: 18px;
+}
